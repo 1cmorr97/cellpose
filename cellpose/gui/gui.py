@@ -274,7 +274,7 @@ class MainW(QMainWindow):
         self.reset()
 
         # This needs to go after .reset() is called to get state fully set up:
-        self.autobtn.checkStateChanged.connect(self.compute_saturation_if_checked)
+        #self.autobtn.checkStateChanged.connect(self.compute_saturation_if_checked)
 
         self.load_3D = False
 
